@@ -24,7 +24,7 @@ FormatBytes() {
 }
 
 speed() {
-	printf "%-32s%-31s%-14s\n" "Node Name:" "IPv4 address:" "Download Speed"
+	printf "%-32s%-31s%-14s\n" "Node Name:" "IP address:" "Download Speed"
 	speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
 	speed_test 'http://tpdb.speed2.hinet.net/test_100m.zip' 'Hinet, Taiwan, TW'
 	speed_test 'http://http.speed.hinet.net/test_1024m.zip' 'Hinet-1GB, Taiwan, TW'
