@@ -3,7 +3,7 @@ speed_test() {
 	local host=$(awk -F':' '{print $1}' <<< `awk -F'/' '{print $3}' <<< $1`)
 	local ipaddress=$(ping -c1 -n ${host} | awk -F'[()]' '{print $2;exit}')
 	local nodeName=$2
-	printf "%-32s%-24s%-14s\n" "${nodeName}:" "${ipaddress}:" "$(FormatBytes $speedtest)"
+	printf "%-32s%-24s%-14s\n" "${nodeName}" "${ipaddress}" "$(FormatBytes $speedtest)"
 }
 
 FormatBytes() {
