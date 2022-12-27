@@ -48,12 +48,27 @@ speed() {
 	speed_test 'https://sel-kor-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Seoul, KR'
 	speed_test 'https://sgp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Singapore, ZA'
 	speed_test 'https://hnd-jp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Tokyo, JP'
-	
-	
-	
-	
+	speed_test 'https://mel-au-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Melbourne, AU'
+	speed_test 'https://syd-au-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Sydney, AU'
+	speed_test 'https://ams-nl-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Amsterdam, NL'
+	speed_test 'https://fra-de-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Frankfurt, DE'
+	speed_test 'https://lon-gb-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, London, UK'
+	speed_test 'https://mad-es-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Madrid, ES'
+	speed_test 'https://par-fr-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Paris, FR'
+	speed_test 'https://sto-se-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Stockholm, SE'
+	speed_test 'https://waw-pl-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Warsaw, PL'
 	speed_test 'https://ga-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Atlanta, US'
-	
+	speed_test 'https://il-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Chicago, US'
+	speed_test 'https://tx-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Dallas, US'
+	speed_test 'https://hon-hi-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Honolulu, US'
+	speed_test 'https://lax-ca-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Los Angeles, US'
+	speed_test 'https://fl-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Miami, US'
+	speed_test 'https://nj-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, New Jersey, US'
+	speed_test 'https://wa-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Seattle, US'
+	speed_test 'https://sjo-ca-us-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Silicon Valley, US'
+	speed_test 'https://mex-mx-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Mexico City, MX'
+	speed_test 'https://tor-ca-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Toronto, CA'
+	speed_test 'https://sao-br-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, São Paulo, BR'
 	speed_test 'http://speedtest.tok02.softlayer.com/downloads/test100.zip' 'Softlayer, Tokyo, JP'
 	speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, Singapore, SG'
 	speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, Seoul, KR'
