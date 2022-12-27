@@ -26,6 +26,8 @@ FormatBytes() {
 speed() {
 	printf "%-32s%-31s%-14s\n" "Node Name:" "IPv4 address:" "Download Speed"
 	speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
+	speed_test 'http://tpdb.speed2.hinet.net/test_100m.zip' 'Hinet, Taiwan, TW'
+	speed_test 'http://http.speed.hinet.net/test_1024m.zip' 'Hinet-1GB, Taiwan, TW'
 #    	speed_test 'http://speedtest.tokyo.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
 	speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo2.bin' 'Linode, Tokyo2, JP'
 	speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, Singapore, SG'
@@ -47,7 +49,6 @@ speed() {
 	speed_test 'http://mirror.sfo12.us.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, San Francisco, US'
 	speed_test 'http://mirror.nl.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, Netherlands, NL'
 	speed_test 'http://proof.ovh.ca/files/100Mio.dat' 'OVH, Montreal, CA'
-	speed_test 'http://tpdb.speed2.hinet.net/test_100m.zip' 'Hinet, Taiwan, TW'
 	# next
 }
 
