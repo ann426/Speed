@@ -48,7 +48,7 @@ speed() {
 	speed_test 'http://mirror.wdc1.us.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, Washington D.C., US'
 	speed_test 'http://mirror.sfo12.us.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, San Francisco, US'
 	speed_test 'http://mirror.nl.leaseweb.net/speedtest/100mb.bin' 'Leaseweb, Netherlands, NL'
-	speed_test 'http://proof.ovh.ca/files/100Mio.dat' 'OVH, Montreal, CA'
+#	speed_test 'http://proof.ovh.ca/files/100Mio.dat' 'OVH, Montreal, CA'
 	# next
 }
 
